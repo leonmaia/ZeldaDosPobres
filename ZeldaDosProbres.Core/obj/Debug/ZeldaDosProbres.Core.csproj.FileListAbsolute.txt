@@ -1,0 +1,5 @@
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.dll
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
+c:\Users\hvitorino\Documents\Visual Studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.dll
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.pdb
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.dll
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosProbres.Core.dll
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosProbres.Core.pdb
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.xml
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.csprojResolveAssemblyReference.cache
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.dll
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.pdb

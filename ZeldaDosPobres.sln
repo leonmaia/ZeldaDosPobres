@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeldaDosPobres.UI", "Zelda.UI\ZeldaDosPobres.UI.csproj", "{F0AFA132-6F46-419D-BE11-6BA5D35B22D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeldaDosProbres.Core", "ZeldaDosProbres.Core\ZeldaDosProbres.Core.csproj", "{6F3CF197-B0BB-400D-AA57-7C715447597D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeldaDosPobres.Test", "ZeldaDosPobres.Test\ZeldaDosPobres.Test.csproj", "{25932373-04F6-48BD-ABB9-64D92766C217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25932373-04F6-48BD-ABB9-64D92766C217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25932373-04F6-48BD-ABB9-64D92766C217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25932373-04F6-48BD-ABB9-64D92766C217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25932373-04F6-48BD-ABB9-64D92766C217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3CF197-B0BB-400D-AA57-7C715447597D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3CF197-B0BB-400D-AA57-7C715447597D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3CF197-B0BB-400D-AA57-7C715447597D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3CF197-B0BB-400D-AA57-7C715447597D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AFA132-6F46-419D-BE11-6BA5D35B22D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AFA132-6F46-419D-BE11-6BA5D35B22D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AFA132-6F46-419D-BE11-6BA5D35B22D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AFA132-6F46-419D-BE11-6BA5D35B22D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

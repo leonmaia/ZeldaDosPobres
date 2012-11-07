@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="6F3CF197-B0BB-400D-AA57-7C715447597D" ModuleId="ZeldaDosProbres.Core" />
+  <Module PersistentId="25932373-04F6-48BD-ABB9-64D92766C217" ModuleId="ZeldaDosPobres.Test" />
+  <Module PersistentId="F0AFA132-6F46-419D-BE11-6BA5D35B22D0" ModuleId="ZeldaDosPobres.UI" />
+  <Module PersistentId="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Drawing" />
+  <Module PersistentId="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Drawing_1" />
+</Modules>

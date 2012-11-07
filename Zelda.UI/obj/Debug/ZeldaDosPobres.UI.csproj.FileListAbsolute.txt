@@ -1,0 +1,8 @@
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosPobres.exe.config
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosPobres.exe
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosPobres.pdb
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.csprojResolveAssemblyReference.cache
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.Properties.Resources.resources
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.csproj.GenerateResource.Cache
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.exe
+c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.pdb
