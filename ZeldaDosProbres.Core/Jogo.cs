@@ -1,4 +1,8 @@
 using System.Collections.Generic;
+using ZeldaDosProbres.Core.Armas;
+using ZeldaDosProbres.Core.Niveis;
+using ZeldaDosProbres.Core.Personagens;
+using ZeldaDosProbres.Core.Pocoes;
 
 namespace ZeldaDosProbres.Core
 {

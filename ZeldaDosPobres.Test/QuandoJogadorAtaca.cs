@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using ZeldaDosProbres.Core;
+using ZeldaDosProbres.Core.Excecoes;
 
 namespace ZeldaDosPobres.Test
 {

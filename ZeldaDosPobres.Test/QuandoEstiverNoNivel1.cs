@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using ZeldaDosProbres.Core;
+using ZeldaDosProbres.Core.Armas;
+using ZeldaDosProbres.Core.Niveis;
 
 namespace ZeldaDosPobres.Test
 {

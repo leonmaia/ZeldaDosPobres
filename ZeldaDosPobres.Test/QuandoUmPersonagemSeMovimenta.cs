@@ -1,6 +1,7 @@
 ﻿using System.Drawing;
 using NUnit.Framework;
 using ZeldaDosProbres.Core;
+using ZeldaDosProbres.Core.Personagens;
 
 namespace ZeldaDosPobres.Test
 {
@@ -58,7 +59,7 @@ namespace ZeldaDosPobres.Test
         }
 
         [Test]
-        public void NaoPassarDaExtremidadeSuperior()
+        public void NaoPassaDaExtremidadeSuperior()
         {
             var jogador = jogo.Jogador;
             var extremidadeSuperior = new Point(0, 0);
@@ -70,7 +71,7 @@ namespace ZeldaDosPobres.Test
         }
 
         [Test]
-        public void NaoPassarDaExtremidadeInferior()
+        public void NaoPassaDaExtremidadeInferior()
         {
             var jogador = jogo.Jogador;
             var extremidadeInferior = new Point(0, 136);
@@ -82,7 +83,7 @@ namespace ZeldaDosPobres.Test
         }
 
         [Test]
-        public void NaoPassarDaExtremidadeEsquerda()
+        public void NaoPassaDaExtremidadeEsquerda()
         {
             var jogador = jogo.Jogador;
             var extremidadeEsquerda = new Point(0, 0);
@@ -94,7 +95,7 @@ namespace ZeldaDosPobres.Test
         }
 
         [Test]
-        public void NaoPassarDaExtremidadeDireita()
+        public void NaoPassaDaExtremidadeDireita()
         {
             var jogador = jogo.Jogador;
             var extremidadeDireita = new Point(398, 0);
@@ -104,6 +105,5 @@ namespace ZeldaDosPobres.Test
 
             Assert.That(jogador.Localizacao, Is.EqualTo(extremidadeDireita));
         }
-
     }
 }

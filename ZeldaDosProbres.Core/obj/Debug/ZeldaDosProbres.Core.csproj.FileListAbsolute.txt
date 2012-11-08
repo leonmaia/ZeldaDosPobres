@@ -5,6 +5,6 @@ c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDos
 c:\Users\hvitorino\Documents\Visual Studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.dll
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
-C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
+C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache

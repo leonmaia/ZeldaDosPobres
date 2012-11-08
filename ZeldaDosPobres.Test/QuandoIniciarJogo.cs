@@ -1,6 +1,9 @@
 ﻿using System.Linq;
 using NUnit.Framework;
 using ZeldaDosProbres.Core;
+using ZeldaDosProbres.Core.Armas;
+using ZeldaDosProbres.Core.Niveis;
+using ZeldaDosProbres.Core.Pocoes;
 
 namespace ZeldaDosPobres.Test
 {
