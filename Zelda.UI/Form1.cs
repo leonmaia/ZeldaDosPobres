@@ -1,6 +1,7 @@
 ﻿using System.Windows.Forms;
 using ZeldaDosProbres.Core;
 using ZeldaDosProbres.Core.Personagens;
+using ZeldaDosProbres.Core.Personagens.Inimigos;
 
 namespace ZeldaDosPobres.UI
 {
@@ -8,6 +9,8 @@ namespace ZeldaDosPobres.UI
     {
         private readonly Jogo jogo;
         private readonly Avatar avatar;
+        private readonly Avatar inimigo;
+
 
         public Form1()
         {
@@ -17,9 +20,11 @@ namespace ZeldaDosPobres.UI
             jogo = new Jogo();
             jogo.Inicia();
 
-            avatar = new Avatar(jogo.Jogador);
+            avatar = new Avatar(jogo.Personagem);
+            inimigo = new Avatar(jogo.Nivel.Inimigos[0]);
 
             masmorra.Controls.Add(avatar.Imagem);
+            masmorra.Controls.Add(inimigo.Imagem);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)

@@ -20,48 +20,48 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void MoveParaCima()
         {
-            var localizacaoAntiga = jogo.Jogador.Localizacao;
-            jogo.Jogador.Move(Direcao.Cima);
+            var localizacaoAntiga = jogo.Personagem.Localizacao;
+            jogo.Personagem.Move(Direcao.Cima);
 
-            Assert.That(jogo.Jogador.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y - jogo.Jogador.Velocidade));
-            Assert.That(jogo.Jogador.Localizacao.X, Is.EqualTo(localizacaoAntiga.X));
+            Assert.That(jogo.Personagem.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y - jogo.Personagem.Velocidade));
+            Assert.That(jogo.Personagem.Localizacao.X, Is.EqualTo(localizacaoAntiga.X));
         }
 
         [Test]
         public void MoveParaBaixo()
         {
-            var localizacaoAntiga = jogo.Jogador.Localizacao;
-            jogo.Jogador.Move(Direcao.Baixo);
+            var localizacaoAntiga = jogo.Personagem.Localizacao;
+            jogo.Personagem.Move(Direcao.Baixo);
 
-            Assert.That(jogo.Jogador.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y + jogo.Jogador.Velocidade));
-            Assert.That(jogo.Jogador.Localizacao.X, Is.EqualTo(localizacaoAntiga.X));
+            Assert.That(jogo.Personagem.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y + jogo.Personagem.Velocidade));
+            Assert.That(jogo.Personagem.Localizacao.X, Is.EqualTo(localizacaoAntiga.X));
         }
 
         [Test]
         public void MoveParaDireita()
         {
-            var localizacaoAntiga = jogo.Jogador.Localizacao;
-            jogo.Jogador.Move(Direcao.Direita);
+            var localizacaoAntiga = jogo.Personagem.Localizacao;
+            jogo.Personagem.Move(Direcao.Direita);
 
-            Assert.That(jogo.Jogador.Localizacao.X, Is.EqualTo(localizacaoAntiga.X + jogo.Jogador.Velocidade));
-            Assert.That(jogo.Jogador.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y));
+            Assert.That(jogo.Personagem.Localizacao.X, Is.EqualTo(localizacaoAntiga.X + jogo.Personagem.Velocidade));
+            Assert.That(jogo.Personagem.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y));
         }
 
         [Test]
         public void MoveParaEsquerda()
         {
-            jogo.Jogador.MovePara(new Point(jogo.Jogador.Velocidade, 0));
-            var localizacaoAntiga = jogo.Jogador.Localizacao;
-            jogo.Jogador.Move(Direcao.Esquerda);
+            jogo.Personagem.MovePara(new Point(jogo.Personagem.Velocidade, 0));
+            var localizacaoAntiga = jogo.Personagem.Localizacao;
+            jogo.Personagem.Move(Direcao.Esquerda);
 
-            Assert.That(jogo.Jogador.Localizacao.X, Is.EqualTo(localizacaoAntiga.X - jogo.Jogador.Velocidade));
-            Assert.That(jogo.Jogador.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y));
+            Assert.That(jogo.Personagem.Localizacao.X, Is.EqualTo(localizacaoAntiga.X - jogo.Personagem.Velocidade));
+            Assert.That(jogo.Personagem.Localizacao.Y, Is.EqualTo(localizacaoAntiga.Y));
         }
 
         [Test]
         public void NaoPassaDaExtremidadeSuperior()
         {
-            var jogador = jogo.Jogador;
+            var jogador = jogo.Personagem;
             var extremidadeSuperior = new Point(0, 0);
 
             jogador.MovePara(extremidadeSuperior);
@@ -73,8 +73,8 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void NaoPassaDaExtremidadeInferior()
         {
-            var jogador = jogo.Jogador;
-            var extremidadeInferior = new Point(0, 136);
+            var jogador = jogo.Personagem;
+            var extremidadeInferior = new Point(0, 156);
 
             jogador.MovePara(extremidadeInferior);
             jogador.Move(Direcao.Baixo);
@@ -85,7 +85,7 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void NaoPassaDaExtremidadeEsquerda()
         {
-            var jogador = jogo.Jogador;
+            var jogador = jogo.Personagem;
             var extremidadeEsquerda = new Point(0, 0);
 
             jogador.MovePara(extremidadeEsquerda);
@@ -97,8 +97,8 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void NaoPassaDaExtremidadeDireita()
         {
-            var jogador = jogo.Jogador;
-            var extremidadeDireita = new Point(398, 0);
+            var jogador = jogo.Personagem;
+            var extremidadeDireita = new Point(418, 0);
 
             jogador.MovePara(extremidadeDireita);
             jogador.Move(Direcao.Direita);

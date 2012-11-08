@@ -7,18 +7,31 @@ namespace ZeldaDosPobres.UI
 {
     public class Avatar
     {
-        private readonly Jogador jogador;
+        private readonly Personagem personagem;
 
-        public Avatar(Jogador jogador)
+        public Avatar(Personagem personagem)
         {
-            Imagem = new PictureBox
+            if (personagem is Jogador)
             {
-                Image     = Resources.link, 
-                SizeMode  = PictureBoxSizeMode.AutoSize, 
-                BackColor = Color.Transparent
-            };
-            
-            this.jogador = jogador;
+                Imagem = new PictureBox
+                {
+                    Image = Resources.link,
+                    SizeMode = PictureBoxSizeMode.AutoSize,
+                    BackColor = Color.Transparent
+                };
+            }
+            else
+            {
+                Imagem = new PictureBox
+                {
+                    Image = Resources.bat,
+                    SizeMode = PictureBoxSizeMode.AutoSize,
+                    BackColor = Color.Transparent
+                };
+            }
+
+
+            this.personagem = personagem;
 
             AtualizaLocalizacao();
         }
@@ -27,30 +40,33 @@ namespace ZeldaDosPobres.UI
 
         private void AtualizaLocalizacao()
         {
-            Imagem.Location = new Point(jogador.Localizacao.X + 76, jogador.Localizacao.Y + 58);
+            if (personagem is Jogador)
+                Imagem.Location = new Point(personagem.Localizacao.X + 76, personagem.Localizacao.Y + 58);
+            else
+                Imagem.Location = new Point(personagem.Localizacao.X + 76, personagem.Localizacao.Y + 58);
         }
 
         public void MoveParaCima()
         {
-            jogador.Move(Direcao.Cima);
+            personagem.Move(Direcao.Cima);
             AtualizaLocalizacao();
         }
 
         public void MoveParaBaixo()
         {
-            jogador.Move(Direcao.Baixo);
+            personagem.Move(Direcao.Baixo);
             AtualizaLocalizacao();
         }
 
         public void MoveParaEsquerda()
         {
-            jogador.Move(Direcao.Esquerda);
+            personagem.Move(Direcao.Esquerda);
             AtualizaLocalizacao();
         }
 
         public void MoveParaDireita()
         {
-            jogador.Move(Direcao.Direita);
+            personagem.Move(Direcao.Direita);
             AtualizaLocalizacao();
         }
     }

@@ -20,8 +20,8 @@ namespace ZeldaDosProbres.Core.Niveis
 
         public void Inicia()
         {
-            var localizacao = new Point(0,68);
-            Jogo.Jogador.MovePara(localizacao);
+            var localizacao = new Point(0, 75);
+            Jogo.Personagem.MovePara(localizacao);
         }
     }
 }

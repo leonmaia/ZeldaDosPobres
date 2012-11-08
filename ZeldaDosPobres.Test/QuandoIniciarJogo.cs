@@ -34,7 +34,7 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void DeveTerUmJogador()
         {
-            Assert.That(jogo.Jogador, Is.Not.Null);
+            Assert.That(jogo.Personagem, Is.Not.Null);
         }
 
         [Test]

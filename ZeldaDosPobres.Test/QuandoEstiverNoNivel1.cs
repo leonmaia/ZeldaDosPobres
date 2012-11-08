@@ -20,6 +20,7 @@ namespace ZeldaDosPobres.Test
         public void Cenario()
         {
             jogo = new Jogo();
+            jogo.Inicia();
             nivel1 = new Nivel1(jogo);
         }
         

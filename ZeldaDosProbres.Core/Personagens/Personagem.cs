@@ -23,31 +23,27 @@ namespace ZeldaDosProbres.Core.Personagens
             switch (direcao)
             {
                 case Direcao.Cima:
-                    if (Localizacao.Y - Velocidade >= 0)
-                        Localizacao = new Point(Localizacao.X, Localizacao.Y - Velocidade);
-                    else
-                        Localizacao = new Point(Localizacao.X, 0);
+                    Localizacao = Localizacao.Y - Velocidade >= 0
+                        ? new Point(Localizacao.X, Localizacao.Y - Velocidade)
+                        : new Point(Localizacao.X, 0);
                     break;
 
                 case Direcao.Baixo:
-                    if (Localizacao.Y + Velocidade <= 156)
-                        Localizacao = new Point(Localizacao.X, Localizacao.Y + Velocidade);
-                    else
-                        Localizacao = new Point(Localizacao.X, 156);
+                    Localizacao = Localizacao.Y + Velocidade <= 156
+                        ? new Point(Localizacao.X, Localizacao.Y + Velocidade)
+                        : new Point(Localizacao.X, 156);
                     break;
 
                 case Direcao.Direita:
-                    if (Localizacao.X + Velocidade <= 418)
-                        Localizacao = new Point(Localizacao.X + Velocidade, Localizacao.Y);
-                    else
-                        Localizacao = new Point(418, Localizacao.Y);
+                    Localizacao = Localizacao.X + Velocidade <= 418
+                        ? new Point(Localizacao.X + Velocidade, Localizacao.Y)
+                        : new Point(418, Localizacao.Y);
                     break;
 
                 case Direcao.Esquerda:
-                    if (Localizacao.X - Velocidade >= 0)
-                        Localizacao = new Point(Localizacao.X - Velocidade, Localizacao.Y);
-                    else
-                        Localizacao = new Point(0, Localizacao.Y);
+                    Localizacao = Localizacao.X - Velocidade >= 0
+                        ? new Point(Localizacao.X - Velocidade, Localizacao.Y)
+                        : new Point(0, Localizacao.Y);
                     break;
             }
         }

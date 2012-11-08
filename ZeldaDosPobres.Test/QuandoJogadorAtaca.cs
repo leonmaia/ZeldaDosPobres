@@ -19,7 +19,7 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void CancelaAtaqueSeNaoTiverInimigoPorPerto()
         {
-            Assert.Throws<NaoHaInimigoPerto>(() => jogo.Jogador.Ataca());
+            Assert.Throws<NaoHaInimigoPerto>(() => jogo.Personagem.Ataca());
         }
     }
 }

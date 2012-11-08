@@ -19,7 +19,7 @@ namespace ZeldaDosPobres.Test
         [Test]
         public void JogadorDeveEstarNaPorta()
         {
-            Assert.That(jogo.Jogador.Localizacao, Is.EqualTo(new Point(0, 68)));
+            Assert.That(jogo.Personagem.Localizacao, Is.EqualTo(new Point(0, 75)));
         }
     }
 }
