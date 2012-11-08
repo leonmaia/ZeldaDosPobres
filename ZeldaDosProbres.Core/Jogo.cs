@@ -8,13 +8,13 @@ namespace ZeldaDosProbres.Core
         public Jogador Jogador { get; private set; }
         public List<Arma> Armas { get; private set; }
         public List<Pocao> Pocoes { get; private set; }
-        public Masmorra Masmorra; 
+        public Masmorra Masmorra { get; private set; }
 
         public void Inicia()
         {
-            Nivel = new Nivel1(this);
             Jogador = new Jogador(this);
             Masmorra = new Masmorra();
+            Nivel = new Nivel1(this);
             Armas = new List<Arma> { new Espada(), new Arco(), new Bastao() };
             Pocoes = new List<Pocao> { new PocaoAzul(), new PocaoVermelha() };
         }

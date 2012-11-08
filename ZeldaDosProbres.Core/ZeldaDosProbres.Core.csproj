@@ -43,6 +43,7 @@
     <Compile Include="Arco.cs" />
     <Compile Include="Arma.cs" />
     <Compile Include="Bastao.cs" />
+    <Compile Include="Direcao.cs" />
     <Compile Include="Espada.cs" />
     <Compile Include="Inimigo.cs" />
     <Compile Include="Jogador.cs" />

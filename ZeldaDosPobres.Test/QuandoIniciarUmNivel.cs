@@ -1,10 +1,11 @@
-﻿using NUnit.Framework;
+﻿using System.Drawing;
+using NUnit.Framework;
 using ZeldaDosProbres.Core;
 
 namespace ZeldaDosPobres.Test
 {
     [TestFixture]
-    class QuandoJogadorAtaca
+    public class QuandoIniciarUmNivel
     {
         private Jogo jogo;
 
@@ -16,9 +17,9 @@ namespace ZeldaDosPobres.Test
         }
 
         [Test]
-        public void CancelaAtaqueSeNaoTiverInimigoPorPerto()
+        public void JogadorDeveEstarNaPorta()
         {
-            Assert.Throws<NaoHaInimigoPerto>(() => jogo.Jogador.Ataca());
+            Assert.That(jogo.Jogador.Localizacao, Is.EqualTo(new Point(0, 68)));
         }
     }
 }
