@@ -28,13 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.masmorra = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.masmorra)).BeginInit();
             this.SuspendLayout();
             // 
             // masmorra
             // 
-            this.masmorra.Image = global::ZeldaDosPobres.UI.Properties.Resources.dungeon600x400;
+            this.masmorra.BackColor = System.Drawing.Color.White;
+            this.masmorra.Image = ((System.Drawing.Image)(resources.GetObject("masmorra.Image")));
             this.masmorra.Location = new System.Drawing.Point(0, 0);
             this.masmorra.Name = "masmorra";
             this.masmorra.Size = new System.Drawing.Size(600, 400);

@@ -30,17 +30,17 @@ namespace ZeldaDosProbres.Core.Personagens
                     break;
 
                 case Direcao.Baixo:
-                    if (Localizacao.Y + Velocidade <= 136)
+                    if (Localizacao.Y + Velocidade <= 156)
                         Localizacao = new Point(Localizacao.X, Localizacao.Y + Velocidade);
                     else
-                        Localizacao = new Point(Localizacao.X, 136);
+                        Localizacao = new Point(Localizacao.X, 156);
                     break;
 
                 case Direcao.Direita:
-                    if (Localizacao.X + Velocidade <= 398)
+                    if (Localizacao.X + Velocidade <= 418)
                         Localizacao = new Point(Localizacao.X + Velocidade, Localizacao.Y);
                     else
-                        Localizacao = new Point(398, Localizacao.Y);
+                        Localizacao = new Point(418, Localizacao.Y);
                     break;
 
                 case Direcao.Esquerda:

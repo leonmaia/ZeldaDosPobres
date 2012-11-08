@@ -13,7 +13,7 @@ namespace ZeldaDosPobres.UI
         {
             Imagem = new PictureBox
             {
-                Image     = Resources.player, 
+                Image     = Resources.link, 
                 SizeMode  = PictureBoxSizeMode.AutoSize, 
                 BackColor = Color.Transparent
             };

@@ -17,3 +17,14 @@ C:\git\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.csproj.GenerateResour
 C:\git\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosProbres.Core.dll
 C:\git\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosProbres.Core.pdb
 C:\git\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.Form1.resources
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosPobres.exe.config
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosPobres.exe
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosPobres.pdb
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosProbres.Core.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\bin\Debug\ZeldaDosProbres.Core.pdb
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.csprojResolveAssemblyReference.cache
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.Form1.resources
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.Properties.Resources.resources
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.UI.csproj.GenerateResource.Cache
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.exe
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\Zelda.UI\obj\Debug\ZeldaDosPobres.pdb

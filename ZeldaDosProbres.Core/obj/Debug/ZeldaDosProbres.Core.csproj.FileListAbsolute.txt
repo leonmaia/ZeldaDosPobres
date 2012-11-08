@@ -8,3 +8,7 @@ C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb

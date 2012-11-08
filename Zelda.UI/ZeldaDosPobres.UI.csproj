@@ -80,6 +80,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ZeldaDosProbres.Core\ZeldaDosProbres.Core.csproj">
+      <Project>{6F3CF197-B0BB-400D-AA57-7C715447597D}</Project>
+      <Name>ZeldaDosProbres.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\bat.png" />
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ghoul.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\link.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mace.png" />
@@ -125,13 +128,13 @@
     <None Include="Resources\wizard.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ZeldaDosProbres.Core\ZeldaDosProbres.Core.csproj">
-      <Project>{6F3CF197-B0BB-400D-AA57-7C715447597D}</Project>
-      <Name>ZeldaDosProbres.Core</Name>
-    </ProjectReference>
+    <None Include="Resources\link30.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\player.png" />
+    <None Include="Resources\link50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link copy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
