@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using ZeldaDosProbres.Core.Armas;
 using ZeldaDosProbres.Core.Niveis;
@@ -9,18 +10,25 @@ namespace ZeldaDosProbres.Core
     public class Jogo
     {
         public Nivel Nivel { get; private set; }
-        public Personagem Personagem { get; private set; }
+        public Personagem Jogador { get; private set; }
         public List<Arma> Armas { get; private set; }
         public List<Pocao> Pocoes { get; private set; }
         public Masmorra Masmorra { get; private set; }
+        public Random Random;
 
-        public void Inicia()
+        public Jogo()
         {
-            Personagem = new Jogador(this);
+            Jogador = new Jogador(this);
             Masmorra = new Masmorra();
+            Random = new Random();
             Nivel = new Nivel1(this);
             Armas = new List<Arma> { new Espada(), new Arco(), new Bastao() };
             Pocoes = new List<Pocao> { new PocaoAzul(), new PocaoVermelha() };
+        }
+
+        public void Inicia()
+        {
+            Nivel.Inicia();
         }
     }
 }

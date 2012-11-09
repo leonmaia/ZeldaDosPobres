@@ -21,7 +21,7 @@ namespace ZeldaDosPobres.Test
         {
             jogo = new Jogo();
             jogo.Inicia();
-            nivel1 = new Nivel1(jogo);
+            //nivel1 = new Nivel1(jogo);
         }
         
         [Test]

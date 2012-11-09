@@ -4,8 +4,6 @@ namespace ZeldaDosProbres.Core.Personagens.Inimigos
     {
         public Morcego(Jogo jogo)
             : base(jogo, 2, 10)
-        {
-
-        }
+        { }
     }
 }

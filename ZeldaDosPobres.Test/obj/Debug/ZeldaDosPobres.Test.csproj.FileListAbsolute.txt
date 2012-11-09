@@ -7,15 +7,6 @@ c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDos
 c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.csprojResolveAssemblyReference.cache
 c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.dll
 c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.pdb
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.dll
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.pdb
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.dll
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosProbres.Core.dll
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosProbres.Core.pdb
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.xml
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.csprojResolveAssemblyReference.cache
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.dll
-C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.pdb
 C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.dll
 C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.pdb
 C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.dll
@@ -25,3 +16,12 @@ C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\
 C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.csprojResolveAssemblyReference.cache
 C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.dll
 C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.pdb
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.dll
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosPobres.Test.pdb
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.dll
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosProbres.Core.dll
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\ZeldaDosProbres.Core.pdb
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\bin\Debug\nunit.framework.xml
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.csprojResolveAssemblyReference.cache
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.dll
+C:\git\ZeldaDosPobres\ZeldaDosPobres.Test\obj\Debug\ZeldaDosPobres.Test.pdb

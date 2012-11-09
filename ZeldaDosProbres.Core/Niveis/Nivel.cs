@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using System.Drawing;
 using ZeldaDosProbres.Core.Armas;
-using ZeldaDosProbres.Core.Personagens;
+using ZeldaDosProbres.Core.Personagens.Inimigos;
 
 namespace ZeldaDosProbres.Core.Niveis
 {
@@ -10,18 +9,18 @@ namespace ZeldaDosProbres.Core.Niveis
         protected Nivel(Jogo jogo)
         {
             Jogo = jogo;
-            Inicia();
         }
 
         public Jogo Jogo { get; protected set; }
         public string Nome { get; protected set; }
-        public List<Personagem> Inimigos { get; protected set; }
+        public List<Inimigo> Inimigos { get; protected set; }
         public Arma ArmaNoRecinto { get; protected set; }
 
         public void Inicia()
         {
-            var localizacao = new Point(0, 75);
-            Jogo.Personagem.MovePara(localizacao);
+            Jogo.Jogador.Inicia();
+
+            Inimigos.ForEach(i => i.Inicia());
         }
     }
 }
