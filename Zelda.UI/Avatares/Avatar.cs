@@ -15,10 +15,20 @@ namespace ZeldaDosPobres.UI.Avatares
 
             personagem.PropertyChanged += (sender, args) =>
             {
-                Action atualizaLocalizacao = () => Imagem.Location = new Point(Personagem.Localizacao.X + 76
-                    , Personagem.Localizacao.Y + 58);
+                if (args.PropertyName == "Vivo")
+                {
+                    Action atualizaEstado = () => Imagem.Visible = false;
 
-                Imagem.BeginInvoke(atualizaLocalizacao);
+                    Imagem.BeginInvoke(atualizaEstado);
+                }
+                else
+                {
+                    Action atualizaLocalizacao = () => Imagem.Location = new Point(Personagem.Localizacao.X + 76
+                     , Personagem.Localizacao.Y + 58);
+
+                    Imagem.BeginInvoke(atualizaLocalizacao);
+                }
+
             };
         }
 
@@ -51,7 +61,7 @@ namespace ZeldaDosPobres.UI.Avatares
 
         public void Ataca()
         {
-            personagem.Ataca();
+            personagem.Atacar();
         }
 
     }

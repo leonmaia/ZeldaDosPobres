@@ -14,7 +14,7 @@ namespace ZeldaDosProbres.Core.Niveis
         public Jogo Jogo { get; protected set; }
         public string Nome { get; protected set; }
         public List<Inimigo> Inimigos { get; protected set; }
-        public Arma ArmaNoRecinto { get; protected set; }
+        public Arma ArmaNoRecinto { get; set; }
 
         public void Inicia()
         {

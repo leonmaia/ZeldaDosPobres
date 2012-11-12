@@ -74,9 +74,27 @@ namespace ZeldaDosPobres.Test
             jogo.Jogador.ArmaEquipada = new Espada();
             jogo.Nivel.Inimigos[0].MovePara(new Point(100, 100));
             var vida = jogo.Nivel.Inimigos[0].Saude;
-            jogo.Jogador.Ataca();
+            jogo.Jogador.Atacar();
 
             Assert.That((jogo.Nivel.Inimigos[0].Saude), Is.EqualTo(vida - jogo.Jogador.ArmaEquipada.Dano));
         }
+
+        [Test]
+        public void VerificaSeInimigoMorreQuandoChegaASaudeIgualA0()
+        {
+            jogo.Jogador.MovePara(new Point(100, 110));
+            jogo.Jogador.ArmaEquipada = new Espada();
+            jogo.Nivel.Inimigos[0].MovePara(new Point(100, 100));
+            var todosVivos = jogo.Nivel.Inimigos.Count;
+            jogo.Jogador.Atacar();
+            jogo.Jogador.Atacar();
+            jogo.Jogador.Atacar();
+            jogo.Jogador.Atacar();
+            jogo.Jogador.Atacar();
+
+
+            Assert.That((jogo.Nivel.Inimigos.Count), Is.EqualTo(todosVivos - 1));
+        }
+
     }
 }

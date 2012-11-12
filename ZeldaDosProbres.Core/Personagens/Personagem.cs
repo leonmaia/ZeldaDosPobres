@@ -8,6 +8,7 @@ namespace ZeldaDosProbres.Core.Personagens
     public abstract class Personagem : INotifyPropertyChanged
     {
         private Point localizacao;
+        private bool vivo;
 
         protected Personagem(Jogo jogo, int forca, int velocidade, int saude)
         {
@@ -16,12 +17,23 @@ namespace ZeldaDosProbres.Core.Personagens
             Velocidade = velocidade;
             TamanhoDoPasso = 5;
             Saude = saude;
+            Vivo = true;
         }
 
-        public int TamanhoDoPasso { get; set; }
+        public int TamanhoDoPasso { get; protected set; }
         public int Forca { get; protected set; }
         public int Saude { get; protected set; }
         public int Velocidade { get; protected set; }
+        public bool Vivo
+        {
+            get { return vivo; }
+            private set
+            {
+                vivo = value;
+                OnPropertyChanged("Vivo");
+            }
+        }
+        public bool EstaMorto { get { return !Vivo; } }
 
         public Point Localizacao
         {
@@ -70,6 +82,9 @@ namespace ZeldaDosProbres.Core.Personagens
                                       : new Point(0, Localizacao.Y);
                     break;
             }
+
+            if (Jogo.Jogador.ArmaNaProximidade(Jogo.Nivel.ArmaNoRecinto.Localizacao))
+                Jogo.Jogador.ColetarArma();
         }
 
         public abstract void Inicia();
@@ -79,13 +94,15 @@ namespace ZeldaDosProbres.Core.Personagens
             Localizacao = novaLocalizacao;
         }
 
-        public abstract void Ataca();
+        public abstract void Atacar();
 
         public void AplicaDano(int dano)
         {
             Saude -= dano;
-        }
 
+            if (Saude <= 0)
+                Vivo = false;
+        }
 
         public abstract bool EstaProximo(Point localizacao);
 

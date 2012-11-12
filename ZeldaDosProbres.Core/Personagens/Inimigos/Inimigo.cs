@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Timers;
 
 namespace ZeldaDosProbres.Core.Personagens.Inimigos
@@ -30,6 +31,9 @@ namespace ZeldaDosProbres.Core.Personagens.Inimigos
             Move(Random.Next(1, 10) <= ChanceIrEmDirecaoAoJogador
                      ? EncontrarDirecaoDoJogador()
                      : Aleatorio.RandomizaDirecao());
+
+            if (EstaProximo(Jogo.Jogador.Localizacao))
+                Atacar();
         }
 
         protected Direcao EncontrarDirecaoDoJogador()
@@ -48,9 +52,9 @@ namespace ZeldaDosProbres.Core.Personagens.Inimigos
             return direcaoParaSeMovimentar;
         }
 
-        public override void Ataca()
+        public override void Atacar()
         {
-
+            Jogo.Jogador.AplicaDano(Forca);
         }
 
         public override bool EstaProximo(Point localizacao)
