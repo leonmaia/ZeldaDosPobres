@@ -11,11 +11,11 @@ namespace ZeldaDosPobres.UI.Avatares
             : base(personagem)
         {
             Imagem = new PictureBox
-                {
-                    Image = Resources.link,
-                    SizeMode = PictureBoxSizeMode.AutoSize,
-                    BackColor = Color.Transparent
-                };
+                         {
+                             Image = Resources.link,
+                             SizeMode = PictureBoxSizeMode.AutoSize,
+                             BackColor = Color.Transparent
+                         };
             Centraliza();
         }
 

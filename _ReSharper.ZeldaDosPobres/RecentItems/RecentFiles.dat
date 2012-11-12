@@ -1,31 +1,62 @@
 ﻿<RecentFiles>
   <RecentFiles>
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Aleatorio.cs" caret="0" fromTop="0" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Zumbi.cs" caret="420" fromTop="14" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Espada.cs" caret="628" fromTop="23" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Niveis/f:Nivel2.cs" caret="0" fromTop="0" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoEstiverNoNivel1.cs" caret="829" fromTop="27" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoIniciarJogo.cs" caret="0" fromTop="0" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoUmPersonagemSeMovimenta.cs" caret="424" fromTop="0" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/d:Inimigos/f:Zumbi.cs" caret="336" fromTop="13" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoIniciarUmNivel.cs" caret="324" fromTop="15" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Arco.cs" caret="164" fromTop="9" />
     <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Program.cs" caret="0" fromTop="0" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Masmorra.cs" caret="281" fromTop="13" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:DadoUmJogador.cs" caret="239" fromTop="12" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Jogo.cs" caret="204" fromTop="7" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoIniciarJogo.cs" caret="252" fromTop="11" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoEstiverNoNivel1.cs" caret="380" fromTop="8" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoJogadorAtaca.cs" caret="567" fromTop="23" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Properties/f:Resources.Designer.cs" caret="0" fromTop="0" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Form1.Designer.cs" caret="1508" fromTop="14" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Properties/f:Resources.resx" caret="9856" fromTop="168" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Niveis/f:Nivel.cs" caret="613" fromTop="14" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Avatar.cs" caret="1356" fromTop="54" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Personagem.cs" caret="2846" fromTop="78" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/d:Inimigos/f:Morcego.cs" caret="279" fromTop="11" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Niveis/f:Nivel1.cs" caret="518" fromTop="16" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/d:Inimigos/f:Inimigo.cs" caret="448" fromTop="12" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoJogadorAtaca.cs" caret="434" fromTop="13" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Espada.cs" caret="158" fromTop="7" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Bastao.cs" caret="136" fromTop="5" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Fantasma.cs" caret="203" fromTop="7" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Jogador.cs" caret="0" fromTop="0" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Morcego.cs" caret="592" fromTop="18" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Form1.cs" caret="929" fromTop="9" />
     <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Direcao.cs" caret="0" fromTop="0" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Jogador.cs" caret="0" fromTop="0" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Form1.cs" caret="735" fromTop="9" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Avatar.cs" caret="792" fromTop="11" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Personagem.cs" caret="1273" fromTop="17" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Pocoes/f:Pocao.cs" caret="76" fromTop="2" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Arma.cs" caret="109" fromTop="6" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Jogo.cs" caret="540" fromTop="12" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/f:Item.cs" caret="87" fromTop="4" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Jogador.cs" caret="205" fromTop="7" />
   </RecentFiles>
   <RecentEdits>
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:DadoUmJogador.cs" caret="239" fromTop="12" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoEstiverNoNivel1.cs" caret="488" fromTop="17" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Masmorra.cs" caret="158" fromTop="8" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoIniciarJogo.cs" caret="518" fromTop="20" />
-    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoJogadorAtaca.cs" caret="596" fromTop="22" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Jogo.cs" caret="316" fromTop="9" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:DadoUmJogador.cs" caret="118" fromTop="12" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Masmorra.cs" caret="156" fromTop="8" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoIniciarJogo.cs" caret="487" fromTop="20" />
     <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Form1.Designer.cs" caret="2679" fromTop="13" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Form1.cs" caret="1030" fromTop="27" />
-    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Avatar.cs" caret="793" fromTop="9" />
-    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Personagem.cs" caret="1273" fromTop="17" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoUmPersonagemSeMovimenta.cs" caret="2003" fromTop="26" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoEstiverNoNivel1.cs" caret="825" fromTop="25" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Zumbi.cs" caret="420" fromTop="14" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Niveis/f:Nivel.cs" caret="657" fromTop="23" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Fantasma.cs" caret="6" fromTop="11" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Espada.cs" caret="733" fromTop="25" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Niveis/f:Nivel1.cs" caret="498" fromTop="14" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Bastao.cs" caret="136" fromTop="5" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Espada.cs" caret="158" fromTop="7" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Arco.cs" caret="131" fromTop="5" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/d:Inimigos/f:Inimigo.cs" caret="330" fromTop="9" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/d:Inimigos/f:Morcego.cs" caret="197" fromTop="7" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/d:Inimigos/f:Zumbi.cs" caret="194" fromTop="7" />
+    <File id="25932373-04F6-48BD-ABB9-64D92766C217/f:QuandoJogadorAtaca.cs" caret="2636" fromTop="25" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/f:Form1.cs" caret="628" fromTop="21" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Personagem.cs" caret="2846" fromTop="18" />
+    <File id="F0AFA132-6F46-419D-BE11-6BA5D35B22D0/d:Avatares/f:Avatar.cs" caret="1356" fromTop="30" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Pocoes/f:Pocao.cs" caret="77" fromTop="4" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/d:Armas/f:Arma.cs" caret="109" fromTop="6" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Itens/f:Item.cs" caret="25" fromTop="2" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/f:Jogo.cs" caret="556" fromTop="12" />
+    <File id="6F3CF197-B0BB-400D-AA57-7C715447597D/d:Personagens/f:Jogador.cs" caret="479" fromTop="20" />
   </RecentEdits>
 </RecentFiles>

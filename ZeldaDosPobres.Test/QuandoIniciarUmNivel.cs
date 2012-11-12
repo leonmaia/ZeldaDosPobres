@@ -7,7 +7,7 @@ namespace ZeldaDosPobres.Test
     [TestFixture]
     public class QuandoIniciarUmNivel
     {
-        private Jogo jogo;
+        #region Setup/Teardown
 
         [SetUp]
         public void Cenario()
@@ -15,6 +15,10 @@ namespace ZeldaDosPobres.Test
             jogo = new Jogo();
             jogo.Inicia();
         }
+
+        #endregion
+
+        private Jogo jogo;
 
         [Test]
         public void JogadorDeveEstarNaPorta()

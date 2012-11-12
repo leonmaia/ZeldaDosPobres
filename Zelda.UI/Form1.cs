@@ -1,13 +1,15 @@
 ﻿using System.Windows.Forms;
 using ZeldaDosPobres.UI.Avatares;
 using ZeldaDosProbres.Core;
+using ZeldaDosProbres.Core.Personagens.Inimigos;
+using Morcego = ZeldaDosPobres.UI.Avatares.Morcego;
 
 namespace ZeldaDosPobres.UI
 {
     public partial class Form1 : Form
     {
-        private Jogo jogo;
         private Jogador jogador;
+        private Jogo jogo;
 
         public Form1()
         {
@@ -15,29 +17,40 @@ namespace ZeldaDosPobres.UI
             InitializeComponent();
 
             Load += (sender, args) =>
-            {
-                jogo = new Jogo();
-                jogador = new Jogador(jogo.Jogador);
+                        {
+                            jogo = new Jogo();
+                            jogador = new Jogador(jogo.Jogador);
+                            
+                            masmorra.Controls.Add(jogador.Imagem);
 
-                masmorra.Controls.Add(jogador.Imagem);
+                            foreach (Inimigo inimigo in jogo.Nivel.Inimigos)
+                                masmorra.Controls.Add(new Morcego(inimigo).Imagem);
 
-                foreach (var inimigo in jogo.Nivel.Inimigos)
-                    masmorra.Controls.Add(new Morcego(inimigo).Imagem);
-
-                jogo.Inicia();
-            };
+                            masmorra.Controls.Add(new Espada(jogo.Nivel.ArmaNoRecinto).Imagem);
+                            jogo.Inicia();
+                        };
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Up)
-                jogador.MoveParaCima();
-            else if (e.KeyCode == Keys.Down)
-                jogador.MoveParaBaixo();
-            else if (e.KeyCode == Keys.Left)
-                jogador.MoveParaEsquerda();
-            else if (e.KeyCode == Keys.Right)
-                jogador.MoveParaDireita();
+            switch (e.KeyCode)
+            {
+                case Keys.Up:
+                    jogador.MoveParaCima();
+                    break;
+                case Keys.Down:
+                    jogador.MoveParaBaixo();
+                    break;
+                case Keys.Left:
+                    jogador.MoveParaEsquerda();
+                    break;
+                case Keys.Right:
+                    jogador.MoveParaDireita();
+                    break;
+                case Keys.Space:
+                    jogador.Ataca();
+                    break;
+            }
         }
     }
 }

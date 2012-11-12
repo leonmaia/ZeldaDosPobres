@@ -3,10 +3,6 @@ c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDos
 c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
 c:\users\hvitorino\documents\visual studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
 c:\Users\hvitorino\Documents\Visual Studio 2012\Projects\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache
-C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.dll
-C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
-C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
-C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.dll
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Core.dll
@@ -19,3 +15,16 @@ C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Linq.xml
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.PlatformServices.xml
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
 C:\git\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\ZeldaDosProbres.Core.pdb
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Core.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Linq.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Core.xml
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.Linq.xml
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.dll
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.pdb
+C:\Users\leonmaia\Documents\GitHub\ZeldaDosPobres\ZeldaDosProbres.Core\obj\Debug\ZeldaDosProbres.Core.csprojResolveAssemblyReference.cache

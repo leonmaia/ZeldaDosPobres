@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Avatares\Avatar.cs" />
+    <Compile Include="Avatares\Espada.cs" />
     <Compile Include="Avatares\Fantasma.cs" />
     <Compile Include="Avatares\Jogador.cs" />
     <Compile Include="Form1.cs">

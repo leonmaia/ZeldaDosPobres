@@ -5,19 +5,17 @@ using ZeldaDosProbres.Core.Personagens;
 
 namespace ZeldaDosPobres.UI.Avatares
 {
-    class Morcego : Avatar
+    internal class Morcego : Avatar
     {
         public Morcego(Personagem personagem)
             : base(personagem)
         {
             Imagem = new PictureBox
-            {
-                Image = Resources.bat,
-                SizeMode = PictureBoxSizeMode.AutoSize,
-                BackColor = Color.Transparent
-            };
+                         {
+                             Image = Resources.bat,
+                             SizeMode = PictureBoxSizeMode.AutoSize,
+                             BackColor = Color.Transparent
+                         };
         }
-
-        
     }
 }

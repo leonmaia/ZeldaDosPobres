@@ -15,7 +15,8 @@ namespace ZeldaDosPobres.UI.Avatares
 
             personagem.PropertyChanged += (sender, args) =>
             {
-                Action atualizaLocalizacao = () => Imagem.Location = new Point(Personagem.Localizacao.X + 76, Personagem.Localizacao.Y + 58);
+                Action atualizaLocalizacao = () => Imagem.Location = new Point(Personagem.Localizacao.X + 76
+                    , Personagem.Localizacao.Y + 58);
 
                 Imagem.BeginInvoke(atualizaLocalizacao);
             };
@@ -23,7 +24,10 @@ namespace ZeldaDosPobres.UI.Avatares
 
         public PictureBox Imagem { get; protected set; }
 
-        protected Personagem Personagem { get { return personagem; } }
+        protected Personagem Personagem
+        {
+            get { return personagem; }
+        }
 
         public void MoveParaCima()
         {
@@ -44,5 +48,11 @@ namespace ZeldaDosPobres.UI.Avatares
         {
             personagem.Move(Direcao.Direita);
         }
+
+        public void Ataca()
+        {
+            personagem.Ataca();
+        }
+
     }
 }

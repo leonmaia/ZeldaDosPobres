@@ -52,17 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Armas\Arco.cs" />
-    <Compile Include="Armas\Arma.cs" />
-    <Compile Include="Armas\Bastao.cs" />
+    <Compile Include="Itens\Armas\Arco.cs" />
+    <Compile Include="Itens\Armas\Arma.cs" />
+    <Compile Include="Itens\Armas\Bastao.cs" />
+    <Compile Include="Itens\Item.cs" />
+    <Compile Include="Personagens\Inimigos\Zumbi.cs" />
     <Compile Include="Personagens\Direcao.cs" />
-    <Compile Include="Armas\Espada.cs" />
+    <Compile Include="Itens\Armas\Espada.cs" />
     <Compile Include="Personagens\Inimigos\Inimigo.cs" />
     <Compile Include="Personagens\Jogador.cs" />
     <Compile Include="Jogo.cs" />
     <Compile Include="Masmorra.cs" />
     <Compile Include="Personagens\Inimigos\Morcego.cs" />
-    <Compile Include="Excecoes\NaoHaInimigoPerto.cs" />
     <Compile Include="Niveis\Nivel.cs" />
     <Compile Include="Niveis\Nivel1.cs" />
     <Compile Include="Niveis\Nivel2.cs" />
@@ -72,9 +73,9 @@
     <Compile Include="Niveis\Nivel6.cs" />
     <Compile Include="Niveis\Nivel7.cs" />
     <Compile Include="Personagens\Personagem.cs" />
-    <Compile Include="Pocoes\Pocao.cs" />
-    <Compile Include="Pocoes\PocaoAzul.cs" />
-    <Compile Include="Pocoes\PocaoVermelha.cs" />
+    <Compile Include="Itens\Pocoes\Pocao.cs" />
+    <Compile Include="Itens\Pocoes\PocaoAzul.cs" />
+    <Compile Include="Itens\Pocoes\PocaoVermelha.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Aleatorio.cs" />
   </ItemGroup>

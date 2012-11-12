@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using ZeldaDosProbres.Core.Armas;
+using ZeldaDosProbres.Core.Itens.Armas;
 using ZeldaDosProbres.Core.Personagens.Inimigos;
 
 namespace ZeldaDosProbres.Core.Niveis
@@ -11,6 +11,7 @@ namespace ZeldaDosProbres.Core.Niveis
         {
             Nome = "Cabana dos mussegu";
             ArmaNoRecinto = new Espada();
+            ArmaNoRecinto.MovePara(Aleatorio.RandomizaLocalizacao());
             Inimigos = new List<Inimigo> { new Morcego(jogo) };
         }
     }

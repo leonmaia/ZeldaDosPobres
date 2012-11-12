@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using ZeldaDosProbres.Core;
-using ZeldaDosProbres.Core.Armas;
+using ZeldaDosProbres.Core.Itens.Armas;
 using ZeldaDosProbres.Core.Niveis;
 
 namespace ZeldaDosPobres.Test
@@ -13,27 +8,31 @@ namespace ZeldaDosPobres.Test
     [TestFixture]
     public class QuandoEstiverNoNivel1
     {
-        private Nivel1 nivel1;
-        private Jogo jogo;
+        #region Setup/Teardown
 
         [SetUp]
         public void Cenario()
         {
             jogo = new Jogo();
             jogo.Inicia();
-            //nivel1 = new Nivel1(jogo);
+            nivel1 = new Nivel1(jogo);
         }
-        
-        [Test]
-        public void DeveTerUmInimigo()
-        {
-            Assert.That(nivel1.Inimigos.Count, Is.EqualTo(1));
-        }
+
+        #endregion
+
+        private Nivel1 nivel1;
+        private Jogo jogo;
 
         [Test]
         public void DeveTerArmaNoRecinto()
         {
             Assert.That(nivel1.ArmaNoRecinto, Is.InstanceOf<Espada>());
+        }
+
+        [Test]
+        public void DeveTerUmInimigo()
+        {
+            Assert.That(nivel1.Inimigos.Count, Is.EqualTo(1));
         }
     }
 }

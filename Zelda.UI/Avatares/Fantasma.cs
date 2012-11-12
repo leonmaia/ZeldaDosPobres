@@ -2,7 +2,7 @@
 
 namespace ZeldaDosPobres.UI.Avatares
 {
-    class Fantasma : Avatar
+    internal class Fantasma : Avatar
     {
         public Fantasma(Personagem personagem) : base(personagem)
         {

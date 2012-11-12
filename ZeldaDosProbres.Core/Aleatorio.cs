@@ -15,7 +15,7 @@ namespace ZeldaDosProbres.Core
 
         public static Direcao RandomizaDirecao()
         {
-            return (Direcao)Random.Next(4);
+            return (Direcao) Random.Next(4);
         }
 
         public static Point RandomizaLocalizacao()

@@ -1,5 +1,4 @@
-﻿
-namespace ZeldaDosProbres.Core.Personagens
+﻿namespace ZeldaDosProbres.Core.Personagens
 {
     public enum Direcao
     {
